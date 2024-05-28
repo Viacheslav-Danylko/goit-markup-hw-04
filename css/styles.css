@@ -105,11 +105,19 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   padding: 24px 0;
-  display: block;
+  display: flex;
 }
 
 .solutions-list:hover, .solutions-list:focus { 
   color: #404bbf;
+}
+
+.header-studio::after {
+  border-radius: 2px;
+  height: 4px;
+  width: 48px;
+  background-color: #404bbf;
+  content: "";
 }
 
 .solutions-mt-list {
@@ -139,6 +147,13 @@ img {
 .effect {
   background-color: #2e2f42;
   padding: 188px 0 188px;
+  background-image: linear-gradient(to bottom,
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)),
+    url(.././images/people-office1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1440px 600px;
 }
 
 .effect-title {
@@ -188,6 +203,22 @@ img {
   width: calc((100% - 3 * 24px) / 4);
 }
 
+.empty-icon {
+  width: 264px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  background-color: #f4f4fd;
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.empty-social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 24px 100px;
+}
+
 .empty-list-title {
   font-weight: 500;
   font-size: 20px;
@@ -227,7 +258,7 @@ img {
 }
 
 .team-list-content {
-  padding: 32px 0 32px;
+  padding-top: 32px;
 }
 
 .team-list-title {
@@ -240,6 +271,31 @@ img {
 
 .team-job {
   letter-spacing: 0.02em;
+}
+
+.team-list-icons {
+  display: flex;
+  gap: 24px;
+  margin: 8px 16px 32px;
+  justify-content: center;
+}
+
+.team-link {
+  background-color: #4d5ae5;
+  display: flex;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  justify-content: center;
+}
+
+.team-social-icon {
+  fill: #f4f4fd;
+}
+
+.team-link:hover {
+  background-color: #404bbf;
 }
 
 /* ------------------- --------------------------- */
@@ -313,7 +369,6 @@ img {
 }
 
 .foot-text {
-  font-size: 12px;
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
