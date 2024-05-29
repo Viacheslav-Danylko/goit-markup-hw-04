@@ -312,7 +312,7 @@ img {
   fill: #f4f4fd;
 }
 
-.team-link:hover {
+.team-link:hover, .team-link:focus {
   background-color: #404bbf;
 }
 
