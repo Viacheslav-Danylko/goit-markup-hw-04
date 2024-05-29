@@ -272,7 +272,7 @@ img {
 }
 
 .team-list-content {
-  padding-top: 32px;
+  padding: 32px 0;
 }
 
 .team-list-title {
@@ -285,10 +285,6 @@ img {
 
 .team-job {
   letter-spacing: 0.02em;
-}
-
-.team-li-container {
-  padding: 32px 0;
 }
 
 .team-list-icons {
