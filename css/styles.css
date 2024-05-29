@@ -162,7 +162,9 @@ img {
     url(.././images/people-office1.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 1440px 600px;
+  max-width: 1440px;
+  background-size: cover;
+  margin: 0 auto;
 }
 
 .effect-title {
@@ -214,6 +216,9 @@ img {
 
 .empty-icon {
   width: 264px;
+  height: 112px;
+  align-items: center;
+  justify-content: center;
   border: 1px solid #8e8f99;
   border-radius: 4px;
   background-color: #f4f4fd;
@@ -221,12 +226,12 @@ img {
   margin-bottom: 8px;
 }
 
-.empty-social-icon {
+/* .empty-social-icon {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 24px 100px;
-}
+} */
 
 .empty-list-title {
   font-weight: 500;
