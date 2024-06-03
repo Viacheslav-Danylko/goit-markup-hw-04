@@ -97,6 +97,7 @@ img {
 .solutions-menu-list {
   display: flex;
   gap: 40px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .solutions .solutions-list {
@@ -132,6 +133,7 @@ img {
 .solutions-mt-list {
   display: flex;
   gap: 40px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .solutions-cont {
@@ -191,6 +193,7 @@ img {
   display: block;
   margin: 0 auto;
   border: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .effect-but:hover, .effect-but:focus {
