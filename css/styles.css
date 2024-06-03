@@ -392,10 +392,10 @@ img {
   padding: 100px 0;
 }
 
-.footer-container {
+/* .footer-container {
   align-items: baseline;
   display: flex;
-}
+} */
 
 .foot-box-logo {
   margin-right: 120px;
@@ -430,7 +430,6 @@ img {
 
 .foot-list {
   display: flex;
-  justify-content: center;
 }
 
 .foot-content {
