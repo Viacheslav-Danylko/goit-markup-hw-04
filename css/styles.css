@@ -393,11 +393,15 @@ img {
 }
 
 .footer-container {
+  align-items: baseline;
   display: flex;
 }
 
+.foot-box-logo {
+  margin-right: 120px;
+}
+
 .footer-content {
-  display: inline-block;
   margin-bottom: 16px;
 }
 
@@ -424,17 +428,23 @@ img {
   width: 264px;
 }
 
+.foot-list {
+  display: flex;
+  justify-content: center;
+}
+
 .foot-content {
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #FFFFFF;
+  margin-bottom: 16px;
 }
 
-.foot-list {
+.foot-list-icons {
   display: flex;
-  gap: 24px;
+  gap: 16px;
   justify-content: center;
 }
 
@@ -460,7 +470,7 @@ img {
 
 .foot-link:hover,
 .foot-link:focus {
-  background-color: #404bbf;
+  background-color: #31d0aa;
 }
 
 /* ------------------- --------------------------- */
