@@ -392,16 +392,16 @@ img {
   padding: 100px 0;
 }
 
-/* .footer-container {
+.foot-container {
   align-items: baseline;
   display: flex;
-} */
+}
 
 .foot-box-logo {
   margin-right: 120px;
 }
 
-.footer-content {
+.foot-content {
   margin-bottom: 16px;
 }
 
@@ -426,10 +426,6 @@ img {
   color: #f4f4fd;
   letter-spacing: 0.02em;
   width: 264px;
-}
-
-.foot-list {
-  display: flex;
 }
 
 .foot-content {
